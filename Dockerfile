@@ -1,4 +1,4 @@
-FROM node:13
+FROM node:8
 ENV NPM_CONFIG_PREFIX=/home/node/.npm-global
 ENV PATH=$PATH:/home/node/.npm-global/bin
 WORKDIR /home/node/app
